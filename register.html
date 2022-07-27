@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register page</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <header>
+        <section class="flex">
+            <a href="home.html" class="logo"> yum-mi 😋</a>
+            <nav class="navbar">
+                <a href="home.html">home</a>
+                <a href="about.html">about</a>
+                <a href="menu.html">menu</a>
+                <a href="order.html">order</a>
+                <a href="contact.html">contact</a>
+            </nav>
+            <div class="icons">
+                <a href="search.html"><i class="fas fa-search"></i></a>
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i> <span>(3)</span></a>
+                <div><i class="fas fa-user" id="user-btn"></i></div>
+                <div><i class="fas fa-bars" id="bar-btn"></i></div>
+            </div>
+
+            <div class="profile">
+                <h3>saiful islam</h3>
+                <div class="flex">
+                    <a href="profile.html" class="btn">profile</a>
+                    <a href="logout.html" class="btn-2">logout</a>
+                </div>
+                <p><a href="login.html">login</a> or <a href="register.html">register</a></p>
+            </div>
+        </section>
+    </header>
+
+
+
+
+
+
+
+    <section class="register">
+        <form action="" method="post" class="box">
+            <h2>register now</h2>
+            <input type="text" name="text" class="box-1" placeholder="enter your name" required maxlength="50"
+                oninput="if(this.value = this.value.replace(/\s/g, ''))" id="">
+            <input type="email" name="eamil" class="box-1" required maxlength="50" placeholder="enter your email"
+                oninput="if(this.value = this.value.rolace(/\s/g, ''))" id="">
+            <input type="number" name="number" class="box-1" required maxlength="9999999999" placeholder="enter your phone"
+                oninput="if(this.value = this.value.replace(/\s/g, ''))" id="">
+            <input type="password" name="password" class="box-1" placeholder="enter your password" maxlength="12" id="" oninput="if(this.value = this.value.replace(/\s/g, ''))">
+            <input type="password" name="password" class="box-1" placeholder="conforam your password" maxlength="12" id="" oninput="if(this.value = this.value.replace(/\s/g, ''))">
+            <input type="submit" value="register now" class="sub-btn">
+
+            <p>already have an accoutn?<a href="login.html">login now</a></p>
+        </form>
+    </section>
+
+
+
+
+
+    <div class="footer">
+
+
+        <section class="box-container">
+
+            <div class="box">
+                <img src="images/email-icon.png" alt="">
+                <h3>oru email</h3>
+                <a href="#saifulsylhet@gamil.com">saifulsylhet@gamil.com</a>
+                <a href="#noobsiful80@gamil.com">noobsaiful80@gamil.com</a>
+            </div>
+            <div class="box">
+                <img src="images/clock-icon.png" alt="">
+                <h3>opening time</h3>
+                <p>7:00am-11:00pm</p>
+            </div>
+            <div class="box">
+                <img src="images/map-icon.png" alt="">
+                <h3>our address</h3>
+                <a href="#syleht ,chiknagle ,3152">syleht ,chiknagle ,3152</a>
+            </div>
+
+            <div class="box">
+                <img src="images/phone-icon.png" alt="">
+                <h3>our address</h3>
+                <a href="#+880175545545481">880175545545481</a>
+                <a href="#+880014562400170">+880014562400170</a>
+            </div>
+
+
+        </section>
+        <div class="creat"> &copf;created by <span>md. saiful islam !!</span> all is well</div>
+    </div>
+
+
+
+    <div class="loader">
+        <img src="images/loader.gif" alt="">
+    </div>
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="sqript.js"></script>
+</body>
+
+</html>
